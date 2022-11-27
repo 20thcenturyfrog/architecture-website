@@ -23,21 +23,20 @@ html {
   margin-right: 12vw;
 }
 
-.main__contact {
+.main__headline_weak {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 6.4rem;
-  color: rgb(51, 51, 51);
   color: #bdbdbd;
 }
 
-.main__information {
+.main__headline {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 6.4rem;
-  color: rgb(51, 51, 51);
+  color: #333333;
 }
 
 .main__company-name {
@@ -45,7 +44,7 @@ html {
   font-style: normal;
   font-weight: 700;
   font-size: 1.8rem;
-  color: rgb(51, 51, 51);
+  color: #333333;
 }
 
 .main__company-address {
@@ -53,7 +52,7 @@ html {
   font-style: normal;
   font-weight: 300;
   font-size: 1.6rem;
-  color: rgb(51, 51, 51);
+  color: #333333;
 }
 
 .main__coordinates {
@@ -61,7 +60,7 @@ html {
   font-style: normal;
   font-weight: 700;
   font-size: 1.8rem;
-  color: rgb(51, 51, 51);
+  color: #333333;
 }
 
 .main__email {
@@ -69,7 +68,7 @@ html {
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
-  color: rgb(51, 51, 51);
+  color: #333333;
 }
 
 .main__button {
@@ -77,7 +76,6 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 1.2rem;
-  color: rgb(51, 51, 51);
   color: #ffffff;
   letter-spacing: 0.2em;
   background: #333333;
@@ -88,4 +86,4 @@ html {
 .main__image {
   border: 1px solid black;
   max-width: 100%;
-}/*# sourceMappingURL=contacts-1.css.map */
+} /*# sourceMappingURL=contacts.css.map */

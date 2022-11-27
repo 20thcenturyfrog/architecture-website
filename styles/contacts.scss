@@ -26,15 +26,15 @@ html {
   font-style: normal;
   font-weight: $weight;
   font-size: $size;
-  color: rgba(51, 51, 51, 1);
+  color: #333333;
 }
 
-.main__contact {
+.main__headline_weak {
   @include font(300, 6.4rem);
   color: #bdbdbd;
 }
 
-.main__information {
+.main__headline {
   @include font(700, 6.4rem);
 }
 
