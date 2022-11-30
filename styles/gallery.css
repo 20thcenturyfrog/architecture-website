@@ -11,6 +11,7 @@ html {
   font-style: normal;
   font-weight: 300;
   font-size: 6.4rem;
+  color: #333333;
   color: #bdbdbd;
 }
 
@@ -45,7 +46,7 @@ html {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .main__picture_blank {
@@ -77,6 +78,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 2.4rem;
+  color: #333333;
   color: #bdbdbd;
   align-self: center;
 }
@@ -103,4 +105,4 @@ html {
 .main__button:hover {
   background: #f9f9f9;
   cursor: pointer;
-} /*# sourceMappingURL=gallery.css.map */
+}/*# sourceMappingURL=gallery.css.map */
