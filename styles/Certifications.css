@@ -22,6 +22,7 @@ html {
   font-style: normal;
   font-weight: 300;
   font-size: 6.4rem;
+  color: #333333;
   color: #bdbdbd;
 }
 
@@ -45,5 +46,5 @@ html {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
-} /*# sourceMappingURL=Certifications.css.map */
+     object-fit: cover;
+}/*# sourceMappingURL=Certifications.css.map */
