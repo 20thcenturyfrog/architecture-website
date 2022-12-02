@@ -7,7 +7,8 @@ html {
 }
 
 .header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
   align-items: center;
   margin-top: 5vh;
   margin-bottom: 5vh;
@@ -16,7 +17,6 @@ html {
 
 .header__menu {
   display: flex;
-  margin-left: 25vw;
   padding: 0;
 }
 
