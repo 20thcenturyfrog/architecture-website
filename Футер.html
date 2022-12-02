@@ -1,25 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="Футер.css">
-</head>
-<body>
-    <div class="container">
-        <div class="footer">
-            <div class="foto"><img src="фото.PNG" alt="Логотип сайта" width="25%"></div>
-
-            <div class="information"><b>Information</b><br /><br />Main<br /><br />Gallery<br /><br />Projects<br /><br />Certifications<br /><br />Contacts</div>
-
-            <div class="about"><b>About</b><br /><br />Company<br /><br />Creditors<br /><br />Vacancies<br /><br />Partners<br /><br />Advertising</div>
-
-            <div class="contacts"><b>Contacts</b><br /><br /><img src="Место.PNG" alt="Значок местоположения">1234 Sample Street Ausin Texas 78704<br /><br /><br /><img src="Телефон.PNG" alt="Значок телефона">512.333.2222<br /><br /><br /><img src="Конверт.PNG" alt="Значок конверта">sampleemail@gmail.com</div>
-
-            <div class="social_media"><b>Social Melia</b><br /><br /><img src="C.PNG" alt="Соц"></div>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/Футер.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <footer class="footer">
+      <div class="footer__main">
+        <img class="footer__logo" src="images/logo-footer.svg" alt="Logo" />
+        <div class="footer__menu">
+          <div class="footer__menu-title">Information</div>
+          <ul class="footer__menu-list">
+            <li class="footer__menu-list-item">
+              <a class="footer__link" href="#">Main</a>
+            </li>
+            <li class="footer__menu-list-item">
+              <a class="footer__link" href="#">Gallery</a>
+            </li>
+            <li class="footer__menu-list-item">
+              <a class="footer__link" href="#">Projects</a>
+            </li>
+            <li class="footer__menu-list-item">
+              <a class="footer__link" href="#">Certifications</a>
+            </li>
+            <li class="footer__menu-list-item">
+              <a class="footer__link" href="#">Contacts</a>
+            </li>
+          </ul>
         </div>
-    </div>
-</body>
+        <div class="footer__menu">
+          <div class="footer__menu-title">About</div>
+          <ul class="footer__menu-list">
+            <li class="footer__menu-list-item">
+              <a class="footer__link" href="#">Company</a>
+            </li>
+            <li class="footer__menu-list-item">
+              <a class="footer__link" href="#">Creditors</a>
+            </li>
+            <li class="footer__menu-list-item">
+              <a class="footer__link" href="#">Vacancies</a>
+            </li>
+            <li class="footer__menu-list-item">
+              <a class="footer__link" href="#">Partners</a>
+            </li>
+            <li class="footer__menu-list-item">
+              <a class="footer__link" href="#">Advertising</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__menu footer__menu-contacts">
+          <div class="footer__menu-title">Contacts</div>
+          <div class="footer__menu-contacts-info-wrapper">
+            <div class="footer__menu-contacts-info">
+              <img
+                class="footer__menu-contacts-info-image"
+                src="images/location.svg"
+                alt="Location"
+              />
+              <div class="footer__menu-contacts-info-text">
+                1234 Sample Street<br />Austin Texas 78704
+              </div>
+            </div>
+            <div class="footer__menu-contacts-info">
+              <img
+                class="footer__menu-contacts-info-image"
+                src="images/phone.svg"
+                alt="Phone"
+              />
+              <div class="footer__menu-contacts-info-text">512.333.2222</div>
+            </div>
+            <div class="footer__menu-contacts-info">
+              <img
+                class="footer__menu-contacts-info-image"
+                src="images/mail.svg"
+                alt="Email"
+              />
+              <div class="footer__menu-contacts-info-text">
+                <a class="footer__link" href="mailto:sampleemail@gmail.com"
+                  >sampleemail@gmail.com</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__menu footer__menu-social-media">
+          <div class="footer__menu-title">Social Media</div>
+          <div class="footer__menu-social-media-links">
+            <a class="footer__link" href="#"
+              ><img
+                class="footer__menu-social-media-logo"
+                src="images/facebook.svg"
+                alt="Facebook"
+            /></a>
+            <a class="footer__link" href="#"
+              ><img
+                class="footer__menu-social-media-logo"
+                src="images/twitter.svg"
+                alt="Twitter"
+            /></a>
+            <a class="footer__link" href="#"
+              ><img
+                class="footer__menu-social-media-logo"
+                src="images/linkedin.svg"
+                alt="LinkedIn"
+            /></a>
+            <a class="footer__link" href="#"
+              ><img
+                class="footer__menu-social-media-logo"
+                src="images/pinterest.svg"
+                alt="Pinterest"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">© 2022 All Rights Reserved</div>
+    </footer>
+  </body>
 </html>
