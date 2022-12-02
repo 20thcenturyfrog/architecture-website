@@ -24,24 +24,23 @@
   margin: 0 auto;
 }
 
-.footer__menu-title {
+@mixin font($weight, $size) {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 1.6em;
+  font-weight: $weight;
+  font-size: $size;
   color: #ffffff;
   letter-spacing: 0.03em;
+}
+
+.footer__menu-title {
+  @include font(700, 1.6em);
   margin-bottom: 4vh;
 }
 
 .footer__menu-list,
 .footer__menu-contacts-info-text {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.4em;
-  color: #ffffff;
-  letter-spacing: 0.03em;
+  @include font(500, 1.4em);
 }
 
 .footer__menu-list {
@@ -81,4 +80,4 @@
 
 .footer__link:hover {
   text-decoration: underline;
-}/*# sourceMappingURL=Футер.css.map */
+}
