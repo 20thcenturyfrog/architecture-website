@@ -1,14 +1,17 @@
+@import "header.css";
+@import "footer.css";
+
 html {
-  background-color: #f5f5f5;
+  background-color: #fbfbfb;
   font-size: 10px;
   width: fit-content;
-  overflow: hidden;
 }
 
 .main {
   display: flex;
-  margin-top: 3vh;
-  margin-bottom: 11vh;
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+  overflow: hidden;
 }
 
 .main__text-wrapper {
@@ -17,8 +20,8 @@ html {
   justify-content: space-between;
   align-items: flex-start;
   padding-top: 8vh;
-  margin-left: 8vw;
-  margin-right: 12vw;
+  margin-left: 7vw;
+  margin-right: 15vw;
 }
 
 @mixin font($weight, $size) {
@@ -54,13 +57,24 @@ html {
   @include font(300, 16px);
 }
 
+.main__email-link {
+  text-decoration: none;
+  color: #333333;
+}
+
 .main__button {
   @include font(400, 1.2rem);
   color: #ffffff;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.2rem;
   background: #333333;
   border: none;
   padding: 2.5rem 6rem;
+}
+
+.main__button:hover {
+  cursor: pointer;
+  padding: 2.5rem 8rem;
+  transition: 0.3s;
 }
 
 .main__image {

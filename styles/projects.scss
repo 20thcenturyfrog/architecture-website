@@ -1,11 +1,27 @@
 @import "header.css";
 @import "footer.css";
+
 html {
   background-color: #fbfbfb;
   font-size: 10px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
+}
+
+@mixin font($weight, $size) {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: $weight;
+  font-size: $size;
+  color: #333333;
+}
+
+.main__headline_weak {
+  @include font(300, 6.4rem);
+  color: #bdbdbd;
+}
+
+.main__headline {
+  @include font(700, 6.4rem);
 }
 
 .main {
@@ -14,45 +30,61 @@ html {
   margin-inline: 7vw;
 }
 
-.main__headline_weak {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 6.4rem;
-  color: #333333;
-  color: #bdbdbd;
-}
-
-.main__headline {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 6.4rem;
-  color: #333333;
-}
-
 .main__text-wrapper {
   padding-bottom: 5vh;
   border-bottom: 1px solid #e0e0e0;
 }
 
-.main__pictures {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 2vw;
+.main__card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 7vh;
   margin-top: 5vh;
   margin-bottom: 10vh;
 }
 
-.main__picture {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+.main__card {
+  display: flex;
+  flex-direction: row;
+  background: #f5f5f5;
 }
 
-.main__picture_blank {
-  background-color: #c4c4c4;
+.main__card-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.main__card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-inline: 2vw 4vw;
+}
+
+.main__card-headline {
+  @include font(300, 4rem);
+  color: #bdbdbd;
+}
+
+.main__card-description {
+  @include font(300, 1.6rem);
+  color: #000000;
+}
+
+.main__card-button {
+  @include font(400, 1.2rem);
+  letter-spacing: 0.2rem;
+  background: #ffffff;
+  border: none;
+  padding: 2.5rem 5rem;
+}
+
+.main__card-button:hover {
+  cursor: pointer;
+  padding: 2.5rem 8rem;
+  transition: 0.3s;
 }
 
 .main__pages {
@@ -67,20 +99,12 @@ html {
 }
 
 .main__first-page-number {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 2.4rem;
-  color: #333333;
+  @include font(400, 2.4rem);
   align-self: center;
 }
 
 .main__last-page-number {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 2.4rem;
-  color: #333333;
+  @include font(400, 2.4rem);
   color: #bdbdbd;
   align-self: center;
 }
@@ -107,4 +131,4 @@ html {
 .main__button:hover {
   background: #f9f9f9;
   cursor: pointer;
-}/*# sourceMappingURL=gallery.css.map */
+}

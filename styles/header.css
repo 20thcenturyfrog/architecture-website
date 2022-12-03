@@ -1,9 +1,5 @@
 html {
-  background-color: #f5f5f5;
   font-size: 10px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
 }
 
 .header {
@@ -17,6 +13,7 @@ html {
 
 .header__menu {
   display: flex;
+  gap: 2vw;
   padding: 0;
 }
 
@@ -24,12 +21,11 @@ html {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   color: #333333;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.2rem;
   list-style-type: none;
-  margin-inline: 1.5vw;
-  padding: 0.4em 1em;
+  padding: 0.4rem 1rem;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
 }
@@ -37,14 +33,6 @@ html {
 .header__menu-item:hover {
   border-top: 1px solid #333333;
   border-bottom: 1px solid #333333;
-}
-
-.header__menu-item-main {
-  margin-left: 0;
-}
-
-.header__menu-item-contacts {
-  margin-right: 0;
 }
 
 .header__menu-item-link {

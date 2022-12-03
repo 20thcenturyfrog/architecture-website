@@ -1,0 +1,61 @@
+@import "header.css";
+@import "footer.css";
+
+html {
+  background-color: #fbfbfb;
+  font-size: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.main__headline_weak {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 6.4rem;
+  color: #333333;
+  color: #bdbdbd;
+}
+
+.main__headline {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6.4rem;
+  color: #333333;
+}
+
+.main {
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+  margin-inline: 7vw;
+}
+
+.main__text-wrapper {
+  padding-bottom: 5vh;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: column;
+  gap: 7vh;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+.main__content-image-text-wrapper {
+  display: flex;
+  gap: 2vw;
+}
+
+.main__content-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.6rem;
+  color: #333333;
+  color: #000000;
+  align-self: center;
+} /*# sourceMappingURL=sample-project.css.map */

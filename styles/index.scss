@@ -1,0 +1,61 @@
+@import "header.css";
+@import "footer.css";
+
+html {
+  background-color: #fbfbfb;
+  font-size: 10px;
+  width: fit-content;
+}
+
+.main {
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+  margin-inline: 7vw;
+}
+
+.main-focus {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+@mixin font($weight, $size) {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: $weight;
+  font-size: $size;
+  color: #333333;
+}
+
+.main-focus__headline {
+  @include font(300, 6.4rem);
+  color: #bdbdbd;
+  margin-bottom: 2vh;
+}
+
+.main-focus__text {
+  display: flex;
+}
+
+.main-focus__number {
+  @include font(900, 20rem);
+  color: #e0e0e0;
+  margin-right: 3vw;
+}
+
+.main-focus__content {
+  @include font(400, 2.2rem);
+  width: 60%;
+  max-height: 20rem;
+}
+
+.main-focus__text-block {
+  display: flex;
+  align-items: center;
+}
+
+.main-focus__text-block-2 {
+  justify-content: flex-end;
+  padding-left: 3vw;
+}
