@@ -1,6 +1,5 @@
 @import "header.css";
 @import "footer.css";
-
 html {
   background-color: #fbfbfb;
   font-size: 10px;
@@ -102,4 +101,4 @@ html {
 .main__image {
   border: 1px solid black;
   max-width: 100%;
-} /*# sourceMappingURL=contacts.css.map */
+}/*# sourceMappingURL=contacts.css.map */

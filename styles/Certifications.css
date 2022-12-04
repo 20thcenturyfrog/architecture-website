@@ -1,6 +1,5 @@
 @import "header.css";
 @import "footer.css";
-
 html {
   background-color: #fbfbfb;
   font-size: 10px;
@@ -49,5 +48,5 @@ html {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
-} /*# sourceMappingURL=Certifications.css.map */
+     object-fit: cover;
+}/*# sourceMappingURL=certifications.css.map */
