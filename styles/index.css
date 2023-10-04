@@ -47,7 +47,7 @@ html {
 
 .landing__image-button {
   position: relative;
-  background-image: url("/images/main-image.jpg");
+  background-image: url("../images/main-image.jpg");
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -191,7 +191,7 @@ button:hover {
 .projects__image {
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .contact-wrapper {
@@ -236,4 +236,4 @@ button:hover {
 
 .contact__button {
   margin-top: 10vh;
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */
